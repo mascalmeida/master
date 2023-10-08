@@ -1,0 +1,2 @@
+- como o ifogsim simula a volta do processamento dos modulos das aplicações? como o ifogsim simula a rede?
+- a alocação é de modulos, só precisa fazer 1x por modulo, então se uma aplicação tem 3 modulos, o algoritmo depois de alocar esses 3 modulos só vai fazer uma nova avaliação se chegar uma nova aplicação.
