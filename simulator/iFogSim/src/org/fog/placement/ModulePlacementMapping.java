@@ -28,8 +28,8 @@ public class ModulePlacementMapping extends ModulePlacement{
 		}
 	}
 
-	public ModulePlacementMapping(List<FogDevice> fogDevices, Application application, 
-			ModuleMapping moduleMapping){
+	public ModulePlacementMapping(List<FogDevice> fogDevices, Application application, ModuleMapping moduleMapping){
+		System.out.println(">>>>>>>> CLOUD = TRUE");
 		this.setFogDevices(fogDevices);
 		this.setApplication(application);
 		this.setModuleMapping(moduleMapping);

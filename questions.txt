@@ -1,2 +1,18 @@
-- como o ifogsim simula a volta do processamento dos modulos das aplicações? como o ifogsim simula a rede?
-- a alocação é de modulos, só precisa fazer 1x por modulo, então se uma aplicação tem 3 modulos, o algoritmo depois de alocar esses 3 modulos só vai fazer uma nova avaliação se chegar uma nova aplicação.
+>>> QUESTIONS <<<
+
+*TEORICAS*
+- O que é Fog/Fog Computing?
+- Interpretar a tabela 3.1 de Leonan
+- O que é uma tupla (tuple)?
+- Qual a diferença de Application Placement x Application Scheduling (policy)?
+- nível de cloudlets? faz diferença ter 4 cloudlets de 1k MIPS/s ou 1 cloudlet de 4k MIPS/s no mesmo nível?
+
+- O que cloudlet?
+R: devices close to the edge of the network—like routers and access points may not be computationally powerful enough
+- O que é seletividade da aresta?
+R: é uma característica específica do modelo do VSOT, é a proporção com que são geradas essas arestas em comparação com a arestas que chegam no modulo. Como o VSOT faz um filtro para exibir apenas as imagens relevantes (com movimento), o trafego entre o modelo detector de objetos e de interface de usuario terá um valor de seletividade.
+
+*PRÁTICAS*
+- Como determinar o tempo de simulação?
+- Como tornar a execução reprodutivel (setSeed)?
+- Onde estão as policies no ifgosim?

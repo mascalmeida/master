@@ -36,8 +36,8 @@ public class smartCarParkingFog {
 	static List<FogDevice> fogDevices = new ArrayList<FogDevice>();
 	static List<Sensor> sensors = new ArrayList<Sensor>();
 	static List<Actuator> actuators = new ArrayList<Actuator>();
-	static int numOfAreas = 1;
-	static int numOfCamerasPerArea1=2;
+	static int numOfAreas = 4;
+	static int numOfCamerasPerArea1=4;
 	static double CAM_TRANSMISSION_TIME = 5;
 	private static boolean CLOUD = false;
 	public static void main(String[] args) {
@@ -72,8 +72,7 @@ public class smartCarParkingFog {
 				moduleMapping.addModuleToDevice("slot-detector", "cloud"); // placing all instances of Object Tracker module in the Cloud
 			}
 			
-			controller = new Controller("master-controller", fogDevices, sensors, 
-					actuators);
+			controller = new Controller("master-controller", fogDevices, sensors, actuators);
 			
 			controller.submitApplication(application, 
 					(CLOUD)?(new ModulePlacementMapping(fogDevices, application, moduleMapping))

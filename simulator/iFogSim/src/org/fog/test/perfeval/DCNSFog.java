@@ -1,9 +1,6 @@
 package org.fog.test.perfeval;
 
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 import org.cloudbus.cloudsim.Host;
 import org.cloudbus.cloudsim.Log;
@@ -48,6 +45,8 @@ public class DCNSFog {
 	static int numOfCamerasPerArea = 4;
 	
 	private static boolean CLOUD = false;
+
+	public static Random random = new Random();
 	
 	public static void main(String[] args) {
 
@@ -93,7 +92,7 @@ public class DCNSFog {
 							:(new ModulePlacementEdgewards(fogDevices, sensors, actuators, application, moduleMapping)));
 			
 			TimeKeeper.getInstance().setSimulationStartTime(Calendar.getInstance().getTimeInMillis());
-			
+
 			CloudSim.startSimulation();
 
 			CloudSim.stopSimulation();
@@ -207,8 +206,8 @@ public class DCNSFog {
 
 		FogDevice fogdevice = null;
 		try {
-			fogdevice = new FogDevice(nodeName, characteristics, 
-					new AppModuleAllocationPolicy(hostList), storageList, 10, upBw, downBw, 0, ratePerMips);
+			fogdevice = new FogDevice(nodeName, characteristics, new AppModuleAllocationPolicy(hostList),
+					storageList, 10, upBw, downBw, 0, ratePerMips);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
