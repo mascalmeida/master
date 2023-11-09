@@ -1,0 +1,18 @@
+@startuml
+abstract class ApplicationBuilder {
++ Application getApplication()
+# {abstract}Application createApplication()
+# {abstract}void createEdgeDevices()
+}
+class VSOTApplication {
+# Application createApplication()
+# void createEdgeDevices()
+}
+class VRGameApplication {
+# Application createApplication()
+# void createEdgeDevices()
+}
+
+ApplicationBuilder <|-- VSOTApplication
+ApplicationBuilder <|-- VRGameApplication
+@enduml

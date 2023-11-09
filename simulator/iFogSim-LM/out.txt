@@ -1,0 +1,177 @@
+Initialising...
+sys:1261:663
+===================
+================
+=============
+COORD MAP{Sensor [dist=1 mean=15.0 stdDev=3.5]=Coordinates [abscissa=342, ordinate=550], FogDevice [mips=1 ram=4000 upBw=10000 downBw=10000]=Coordinates [abscissa=630, ordinate=220], Actuator []=Coordinates [abscissa=456, ordinate=550], Actuator []=Coordinates [abscissa=114, ordinate=550], Actuator []=Coordinates [abscissa=570, ordinate=550], FogDevice [mips=4000 ram=4000 upBw=10000 downBw=10000]=Coordinates [abscissa=315, ordinate=330], FogDevice [mips=4000 ram=4000 upBw=10000 downBw=10000]=Coordinates [abscissa=630, ordinate=330], FogDevice [mips=4000 ram=4000 upBw=10000 downBw=10000]=Coordinates [abscissa=945, ordinate=330], FogDevice [mips=44800 ram=40000 upBw=10000 downBw=10000]=Coordinates [abscissa=630, ordinate=110], FogDevice [mips=1000 ram=10000 upBw=10000 downBw=270]=Coordinates [abscissa=630, ordinate=440], Sensor [dist=1 mean=15.0 stdDev=3.5]=Coordinates [abscissa=798, ordinate=550], Sensor [dist=1 mean=15.0 stdDev=3.5]=Coordinates [abscissa=684, ordinate=550], FogDevice [mips=1000 ram=10000 upBw=10000 downBw=270]=Coordinates [abscissa=210, ordinate=440], FogDevice [mips=1000 ram=10000 upBw=10000 downBw=270]=Coordinates [abscissa=420, ordinate=440], FogDevice [mips=1000 ram=10000 upBw=10000 downBw=270]=Coordinates [abscissa=840, ordinate=440], Sensor [dist=1 mean=6.0 stdDev=1.5]=Coordinates [abscissa=1026, ordinate=550], FogDevice [mips=1000 ram=10000 upBw=10000 downBw=270]=Coordinates [abscissa=1050, ordinate=440], Actuator []=Coordinates [abscissa=912, ordinate=550], Sensor [dist=1 mean=6.0 stdDev=1.5]=Coordinates [abscissa=228, ordinate=550], Actuator []=Coordinates [abscissa=1140, ordinate=550]}
+Start Node : s-m-VRGame-1-0-0
+Target Node : m-VRGame-1-0
+Start Node : proxy-server
+Target Node : cloud
+Start Node : d-m-VRGame-1-0-0
+Target Node : m-VRGame-1-0
+Start Node : d-m-VRGame-0-0-0
+Target Node : m-VRGame-0-0
+Start Node : ptz-m-DCNS-1-0-0
+Target Node : m-DCNS-1-0
+Start Node : cloudlet-2
+Target Node : proxy-server
+Start Node : cloudlet-1
+Target Node : proxy-server
+Start Node : cloudlet-0
+Target Node : proxy-server
+Start Node : cloud
+Start Node : m-VRGame-0-0
+Target Node : cloudlet-0
+Start Node : s-m-VRGame-0-1-0
+Target Node : m-VRGame-0-1
+Start Node : s-m-VRGame-0-0-0
+Target Node : m-VRGame-0-0
+Start Node : m-DCNS-1-0
+Target Node : cloudlet-1
+Start Node : s-m-DCNS-0-0-0
+Target Node : m-DCNS-0-0
+Start Node : m-VRGame-0-1
+Target Node : cloudlet-0
+Start Node : m-VRGame-1-0
+Target Node : cloudlet-1
+Start Node : m-DCNS-0-0
+Target Node : cloudlet-0
+Start Node : d-m-VRGame-0-1-0
+Target Node : m-VRGame-0-1
+Start Node : s-m-DCNS-1-0-0
+Target Node : m-DCNS-1-0
+Start Node : ptz-m-DCNS-0-0-0
+Target Node : m-DCNS-0-0
+sys:1261:663
+===================
+================
+=============
+COORD MAP{Sensor [dist=1 mean=15.0 stdDev=3.5]=Coordinates [abscissa=342, ordinate=550], FogDevice [mips=1 ram=4000 upBw=10000 downBw=10000]=Coordinates [abscissa=630, ordinate=220], Actuator []=Coordinates [abscissa=456, ordinate=550], Actuator []=Coordinates [abscissa=114, ordinate=550], Actuator []=Coordinates [abscissa=570, ordinate=550], FogDevice [mips=4000 ram=4000 upBw=10000 downBw=10000]=Coordinates [abscissa=315, ordinate=330], FogDevice [mips=4000 ram=4000 upBw=10000 downBw=10000]=Coordinates [abscissa=630, ordinate=330], FogDevice [mips=4000 ram=4000 upBw=10000 downBw=10000]=Coordinates [abscissa=945, ordinate=330], FogDevice [mips=44800 ram=40000 upBw=10000 downBw=10000]=Coordinates [abscissa=630, ordinate=110], FogDevice [mips=1000 ram=10000 upBw=10000 downBw=270]=Coordinates [abscissa=630, ordinate=440], Sensor [dist=1 mean=15.0 stdDev=3.5]=Coordinates [abscissa=798, ordinate=550], Sensor [dist=1 mean=15.0 stdDev=3.5]=Coordinates [abscissa=684, ordinate=550], FogDevice [mips=1000 ram=10000 upBw=10000 downBw=270]=Coordinates [abscissa=210, ordinate=440], FogDevice [mips=1000 ram=10000 upBw=10000 downBw=270]=Coordinates [abscissa=420, ordinate=440], FogDevice [mips=1000 ram=10000 upBw=10000 downBw=270]=Coordinates [abscissa=840, ordinate=440], Sensor [dist=1 mean=6.0 stdDev=1.5]=Coordinates [abscissa=1026, ordinate=550], FogDevice [mips=1000 ram=10000 upBw=10000 downBw=270]=Coordinates [abscissa=1050, ordinate=440], Actuator []=Coordinates [abscissa=912, ordinate=550], Sensor [dist=1 mean=6.0 stdDev=1.5]=Coordinates [abscissa=228, ordinate=550], Actuator []=Coordinates [abscissa=1140, ordinate=550]}
+Start Node : s-m-VRGame-1-0-0
+Target Node : m-VRGame-1-0
+Start Node : proxy-server
+Target Node : cloud
+Start Node : d-m-VRGame-1-0-0
+Target Node : m-VRGame-1-0
+Start Node : d-m-VRGame-0-0-0
+Target Node : m-VRGame-0-0
+Start Node : ptz-m-DCNS-1-0-0
+Target Node : m-DCNS-1-0
+Start Node : cloudlet-2
+Target Node : proxy-server
+Start Node : cloudlet-1
+Target Node : proxy-server
+Start Node : cloudlet-0
+Target Node : proxy-server
+Start Node : cloud
+Start Node : m-VRGame-0-0
+Target Node : cloudlet-0
+Start Node : s-m-VRGame-0-1-0
+Target Node : m-VRGame-0-1
+Start Node : s-m-VRGame-0-0-0
+Target Node : m-VRGame-0-0
+Start Node : m-DCNS-1-0
+Target Node : cloudlet-1
+Start Node : s-m-DCNS-0-0-0
+Target Node : m-DCNS-0-0
+Start Node : m-VRGame-0-1
+Target Node : cloudlet-0
+Start Node : m-VRGame-1-0
+Target Node : cloudlet-1
+Start Node : m-DCNS-0-0
+Target Node : cloudlet-0
+Start Node : d-m-VRGame-0-1-0
+Target Node : m-VRGame-0-1
+Start Node : s-m-DCNS-1-0-0
+Target Node : m-DCNS-1-0
+Start Node : ptz-m-DCNS-0-0-0
+Target Node : m-DCNS-0-0
+sys:1917:919
+===================
+================
+=============
+COORD MAP{Sensor [dist=1 mean=15.0 stdDev=3.5]=Coordinates [abscissa=522, ordinate=765], FogDevice [mips=1 ram=4000 upBw=10000 downBw=10000]=Coordinates [abscissa=958, ordinate=306], Actuator []=Coordinates [abscissa=696, ordinate=765], Actuator []=Coordinates [abscissa=174, ordinate=765], Actuator []=Coordinates [abscissa=870, ordinate=765], FogDevice [mips=4000 ram=4000 upBw=10000 downBw=10000]=Coordinates [abscissa=479, ordinate=459], FogDevice [mips=4000 ram=4000 upBw=10000 downBw=10000]=Coordinates [abscissa=958, ordinate=459], FogDevice [mips=4000 ram=4000 upBw=10000 downBw=10000]=Coordinates [abscissa=1437, ordinate=459], FogDevice [mips=44800 ram=40000 upBw=10000 downBw=10000]=Coordinates [abscissa=958, ordinate=153], FogDevice [mips=1000 ram=10000 upBw=10000 downBw=270]=Coordinates [abscissa=957, ordinate=612], Sensor [dist=1 mean=15.0 stdDev=3.5]=Coordinates [abscissa=1218, ordinate=765], Sensor [dist=1 mean=15.0 stdDev=3.5]=Coordinates [abscissa=1044, ordinate=765], FogDevice [mips=1000 ram=10000 upBw=10000 downBw=270]=Coordinates [abscissa=319, ordinate=612], FogDevice [mips=1000 ram=10000 upBw=10000 downBw=270]=Coordinates [abscissa=638, ordinate=612], FogDevice [mips=1000 ram=10000 upBw=10000 downBw=270]=Coordinates [abscissa=1276, ordinate=612], Sensor [dist=1 mean=6.0 stdDev=1.5]=Coordinates [abscissa=1566, ordinate=765], FogDevice [mips=1000 ram=10000 upBw=10000 downBw=270]=Coordinates [abscissa=1595, ordinate=612], Actuator []=Coordinates [abscissa=1392, ordinate=765], Sensor [dist=1 mean=6.0 stdDev=1.5]=Coordinates [abscissa=348, ordinate=765], Actuator []=Coordinates [abscissa=1740, ordinate=765]}
+Start Node : s-m-VRGame-1-0-0
+Target Node : m-VRGame-1-0
+Start Node : proxy-server
+Target Node : cloud
+Start Node : d-m-VRGame-1-0-0
+Target Node : m-VRGame-1-0
+Start Node : d-m-VRGame-0-0-0
+Target Node : m-VRGame-0-0
+Start Node : ptz-m-DCNS-1-0-0
+Target Node : m-DCNS-1-0
+Start Node : cloudlet-2
+Target Node : proxy-server
+Start Node : cloudlet-1
+Target Node : proxy-server
+Start Node : cloudlet-0
+Target Node : proxy-server
+Start Node : cloud
+Start Node : m-VRGame-0-0
+Target Node : cloudlet-0
+Start Node : s-m-VRGame-0-1-0
+Target Node : m-VRGame-0-1
+Start Node : s-m-VRGame-0-0-0
+Target Node : m-VRGame-0-0
+Start Node : m-DCNS-1-0
+Target Node : cloudlet-1
+Start Node : s-m-DCNS-0-0-0
+Target Node : m-DCNS-0-0
+Start Node : m-VRGame-0-1
+Target Node : cloudlet-0
+Start Node : m-VRGame-1-0
+Target Node : cloudlet-1
+Start Node : m-DCNS-0-0
+Target Node : cloudlet-0
+Start Node : d-m-VRGame-0-1-0
+Target Node : m-VRGame-0-1
+Start Node : s-m-DCNS-1-0-0
+Target Node : m-DCNS-1-0
+Start Node : ptz-m-DCNS-0-0-0
+Target Node : m-DCNS-0-0
+sys:1917:919
+===================
+================
+=============
+COORD MAP{Sensor [dist=1 mean=15.0 stdDev=3.5]=Coordinates [abscissa=522, ordinate=765], FogDevice [mips=1 ram=4000 upBw=10000 downBw=10000]=Coordinates [abscissa=958, ordinate=306], Actuator []=Coordinates [abscissa=696, ordinate=765], Actuator []=Coordinates [abscissa=174, ordinate=765], Actuator []=Coordinates [abscissa=870, ordinate=765], FogDevice [mips=4000 ram=4000 upBw=10000 downBw=10000]=Coordinates [abscissa=479, ordinate=459], FogDevice [mips=4000 ram=4000 upBw=10000 downBw=10000]=Coordinates [abscissa=958, ordinate=459], FogDevice [mips=4000 ram=4000 upBw=10000 downBw=10000]=Coordinates [abscissa=1437, ordinate=459], FogDevice [mips=44800 ram=40000 upBw=10000 downBw=10000]=Coordinates [abscissa=958, ordinate=153], FogDevice [mips=1000 ram=10000 upBw=10000 downBw=270]=Coordinates [abscissa=957, ordinate=612], Sensor [dist=1 mean=15.0 stdDev=3.5]=Coordinates [abscissa=1218, ordinate=765], Sensor [dist=1 mean=15.0 stdDev=3.5]=Coordinates [abscissa=1044, ordinate=765], FogDevice [mips=1000 ram=10000 upBw=10000 downBw=270]=Coordinates [abscissa=319, ordinate=612], FogDevice [mips=1000 ram=10000 upBw=10000 downBw=270]=Coordinates [abscissa=638, ordinate=612], FogDevice [mips=1000 ram=10000 upBw=10000 downBw=270]=Coordinates [abscissa=1276, ordinate=612], Sensor [dist=1 mean=6.0 stdDev=1.5]=Coordinates [abscissa=1566, ordinate=765], FogDevice [mips=1000 ram=10000 upBw=10000 downBw=270]=Coordinates [abscissa=1595, ordinate=612], Actuator []=Coordinates [abscissa=1392, ordinate=765], Sensor [dist=1 mean=6.0 stdDev=1.5]=Coordinates [abscissa=348, ordinate=765], Actuator []=Coordinates [abscissa=1740, ordinate=765]}
+Start Node : s-m-VRGame-1-0-0
+Target Node : m-VRGame-1-0
+Start Node : proxy-server
+Target Node : cloud
+Start Node : d-m-VRGame-1-0-0
+Target Node : m-VRGame-1-0
+Start Node : d-m-VRGame-0-0-0
+Target Node : m-VRGame-0-0
+Start Node : ptz-m-DCNS-1-0-0
+Target Node : m-DCNS-1-0
+Start Node : cloudlet-2
+Target Node : proxy-server
+Start Node : cloudlet-1
+Target Node : proxy-server
+Start Node : cloudlet-0
+Target Node : proxy-server
+Start Node : cloud
+Start Node : m-VRGame-0-0
+Target Node : cloudlet-0
+Start Node : s-m-VRGame-0-1-0
+Target Node : m-VRGame-0-1
+Start Node : s-m-VRGame-0-0-0
+Target Node : m-VRGame-0-0
+Start Node : m-DCNS-1-0
+Target Node : cloudlet-1
+Start Node : s-m-DCNS-0-0-0
+Target Node : m-DCNS-0-0
+Start Node : m-VRGame-0-1
+Target Node : cloudlet-0
+Start Node : m-VRGame-1-0
+Target Node : cloudlet-1
+Start Node : m-DCNS-0-0
+Target Node : cloudlet-0
+Start Node : d-m-VRGame-0-1-0
+Target Node : m-VRGame-0-1
+Start Node : s-m-DCNS-1-0-0
+Target Node : m-DCNS-1-0
+Start Node : ptz-m-DCNS-0-0-0
+Target Node : m-DCNS-0-0

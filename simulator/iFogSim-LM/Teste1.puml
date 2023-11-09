@@ -1,0 +1,32 @@
+@startuml
+
+class Experimento {
+# {static} int SEED
+# {static} String TOPOLOGY_TYPE
+- MakeFog makeFog
+- String logsPrefix
++ void configureSimulator()
++ void configureEnviroment()
++ void showTopology()
++ void startSimulation()
++ List<ApplicationBuilder> configurerApplications(Topology)
++ {static} void main(String[])
+}
+
+class MakeFog {
+- Topology topology
+- ModuleMapping moduleMapping
+- List<FogDevice> fogDevices
+- List<Sensor> sensors
+- List<Actuator> actuators
+- Graph graph
++ Graph makeNetwork()
++ List<FogDevice> getFogDevices()
++ List<Sensor> getSensors()
++ List<Actuator> getActuators()
++ Graph getGraph()
+}
+
+
+
+@enduml

@@ -15,4 +15,10 @@ R: é uma característica específica do modelo do VSOT, é a proporção com qu
 *PRÁTICAS*
 - Como determinar o tempo de simulação?
 - Como tornar a execução reprodutivel (setSeed)?
-- Onde estão as policies no ifgosim?
+- O que são aqueles números depois de $algo no código de leonan?
+- Placement x Policy?
+
+0=numero de cloudlets
+o restante dos parametros
+
+tempos de simulação

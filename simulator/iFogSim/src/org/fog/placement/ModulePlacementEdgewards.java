@@ -33,7 +33,7 @@ public class ModulePlacementEdgewards extends ModulePlacement{
 	
 	public ModulePlacementEdgewards(List<FogDevice> fogDevices, List<Sensor> sensors, List<Actuator> actuators, 
 			Application application, ModuleMapping moduleMapping){
-		System.out.println(">>>>>>>> CLOUD = FALSE");
+		System.out.println(">>>>>>>> ModulePlacementEdgewards");
 		this.setFogDevices(fogDevices);
 		this.setApplication(application);
 		this.setModuleMapping(moduleMapping);

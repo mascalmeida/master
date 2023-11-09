@@ -1,0 +1,54 @@
+@startuml
+left to right direction
+package "iFogSim" <<Rectangle>> {
+'https://plantuml.com/class-diagram
+package "Gerenciamento de Recursos" <<Rectangle>> {
+    abstract class ModulePlacement
+    class ModuleMapping
+    class ModulePlacementMapping
+}
+
+package "Entidades Físicas" <<Rectangle>> {
+  class Sensor
+  class Actuator
+  class FogDevice
+}
+
+package "Entidades Lógicas" <<Rectangle>> {
+    class Application
+    class AppModule
+    class AppEdge
+    class AppLoop
+}
+
+class Controller
+
+}
+
+Application --> "0..*" AppEdge
+Application --> "0..*" AppModule
+Application --> "0..*" AppLoop
+
+FogDevice --> "0..*" AppModule
+
+FogDevice --> "0..*" Actuator
+FogDevice --> "0..*" Sensor
+
+Controller --> "0..*" FogDevice
+Controller --> "0..*" Application
+'
+'
+Controller --> "0..1" ModuleMapping
+ModuleMapping <-- "0..1" ModulePlacementMapping
+ModulePlacementMapping --|> ModulePlacement
+
+'List <|-- ModulePlacement
+'Collection <|-- AbstractCollection
+'
+'Collection <|- List
+'AbstractCollection <|- ModulePlacement
+'ModulePlacement <|-- ArrayList
+
+
+
+@enduml

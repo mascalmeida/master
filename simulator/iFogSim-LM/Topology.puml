@@ -1,0 +1,30 @@
+@startuml
+class TopologyA {
+# void configNetwork()
+}
+class TopologyD {
+# void configNetwork()
+}
+
+abstract class Topology {
+# void configNetwork()
+- String name
+- int edgeLatency
++ Level getTop()
++ Level getBotton()
++ String getName()
++ int getEdgeLatency()
+}
+class TopologyC {
+# void configNetwork()
+}
+class TopologyB {
+# void configNetwork()
+}
+
+
+Topology <|-- TopologyA
+Topology <|-- TopologyD
+Topology <|-- TopologyC
+Topology <|-- TopologyB
+@enduml

@@ -1,0 +1,28 @@
+@startuml
+class SensorLevel {
++ String getType()
++ int getUserId()
++ String getAppId()
+}
+
+class Level {
+
++ Level addNext(Level)
++ Level addGroup(Level)
++ Level addEdge(Level)
++ double getUpLatency()
++ Level addAppModules(String,int)
++ Level addAppModulesUp(String,int)
+}
+
+class ActuatorLevel {
++ int getUserId()
++ String getAppId()
++ String getType()
+}
+
+Level <|-- SensorLevel
+Level <|-- ActuatorLevel
+
+
+@enduml
