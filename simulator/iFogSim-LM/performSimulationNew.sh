@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for algo in  2 #5 7 12
+for algo in  5 #5 7 12
 do
   for topology in A #A B C D A2 D2
   do
