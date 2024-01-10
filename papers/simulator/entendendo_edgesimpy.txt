@@ -1,0 +1,7 @@
+aplication determina uma relação entre serviço e usuario, ou seja, cada usuario tem um serviço previamente especificado. Os usuarios vao fazer requisições desses serviços a partir do modelo do access_patterns. Os serviços do sample_dataset2 não estão previamente alocados em nenhum servidor, mas o servidor 5 tem um container registry e varios container layers, eu não tenho certeza se isso uma aplicação fixa para ocupar espaço nesse servidor "infinitamente", ou se são as imagens referentes aos serviços que serão solicitados pelos usuários.
+
+Outra coisa, sobre as aplicações: As EdgeSimPy models applications as self-contained entities, they can receive custom attributes, such as priority and budget, which enables modeling specific scenarios.
+
+Outra coisa sobre delay: existe uma função chamada _compute_delay que recebe um parametro metric que pode ser alterado entre "latency" e "response_time"
+
+Aparentemente no servidor 5 tem varias imagens diferentes e 1 container registry, os serviços de cada usario acaba sendo uma das opções de imagem que tem no servidor 5. Falta entender a função co container registry. E tem uma imagem chamada registry que eu nao entendi.
